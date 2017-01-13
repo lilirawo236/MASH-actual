@@ -22,6 +22,7 @@ namespace MASH
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             startButton.BackColor = Color.Yellow;
+            // change 2
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
