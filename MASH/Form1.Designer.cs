@@ -406,10 +406,9 @@
             // 
             // outputLabel1
             // 
-            this.outputLabel1.AutoSize = true;
-            this.outputLabel1.Location = new System.Drawing.Point(155, 449);
+            this.outputLabel1.Location = new System.Drawing.Point(181, 443);
             this.outputLabel1.Name = "outputLabel1";
-            this.outputLabel1.Size = new System.Drawing.Size(0, 13);
+            this.outputLabel1.Size = new System.Drawing.Size(100, 23);
             this.outputLabel1.TabIndex = 32;
             // 
             // Form1
