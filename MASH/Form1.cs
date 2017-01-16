@@ -74,5 +74,10 @@ namespace MASH
 
             nextButton.Visible = true;
         }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
