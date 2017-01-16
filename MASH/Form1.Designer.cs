@@ -67,7 +67,7 @@
             this.titleLabel.BackColor = System.Drawing.Color.Transparent;
             this.titleLabel.Font = new System.Drawing.Font("Jokerman", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.LimeGreen;
-            this.titleLabel.Location = new System.Drawing.Point(56, 106);
+            this.titleLabel.Location = new System.Drawing.Point(60, 112);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(450, 118);
             this.titleLabel.TabIndex = 0;
@@ -81,7 +81,7 @@
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.startButton.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startButton.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.startButton.Location = new System.Drawing.Point(149, 300);
+            this.startButton.Location = new System.Drawing.Point(151, 286);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(255, 83);
             this.startButton.TabIndex = 1;
@@ -95,7 +95,7 @@
             // 
             this.careerLabel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.careerLabel1.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.careerLabel1.Location = new System.Drawing.Point(37, 28);
+            this.careerLabel1.Location = new System.Drawing.Point(37, 9);
             this.careerLabel1.Name = "careerLabel1";
             this.careerLabel1.Size = new System.Drawing.Size(118, 75);
             this.careerLabel1.TabIndex = 2;
@@ -106,7 +106,7 @@
             // career1
             // 
             this.career1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career1.Location = new System.Drawing.Point(36, 106);
+            this.career1.Location = new System.Drawing.Point(36, 87);
             this.career1.Name = "career1";
             this.career1.Size = new System.Drawing.Size(119, 22);
             this.career1.TabIndex = 3;
@@ -116,7 +116,7 @@
             // career2
             // 
             this.career2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career2.Location = new System.Drawing.Point(36, 134);
+            this.career2.Location = new System.Drawing.Point(36, 115);
             this.career2.Name = "career2";
             this.career2.Size = new System.Drawing.Size(119, 22);
             this.career2.TabIndex = 4;
@@ -126,7 +126,7 @@
             // career3
             // 
             this.career3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career3.Location = new System.Drawing.Point(36, 162);
+            this.career3.Location = new System.Drawing.Point(36, 143);
             this.career3.Name = "career3";
             this.career3.Size = new System.Drawing.Size(119, 22);
             this.career3.TabIndex = 5;
@@ -136,7 +136,7 @@
             // career4
             // 
             this.career4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career4.Location = new System.Drawing.Point(36, 190);
+            this.career4.Location = new System.Drawing.Point(36, 171);
             this.career4.Name = "career4";
             this.career4.Size = new System.Drawing.Size(119, 22);
             this.career4.TabIndex = 6;
@@ -146,7 +146,7 @@
             // house4
             // 
             this.house4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house4.Location = new System.Drawing.Point(36, 418);
+            this.house4.Location = new System.Drawing.Point(36, 361);
             this.house4.Name = "house4";
             this.house4.Size = new System.Drawing.Size(119, 22);
             this.house4.TabIndex = 11;
@@ -156,7 +156,7 @@
             // house3
             // 
             this.house3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house3.Location = new System.Drawing.Point(36, 390);
+            this.house3.Location = new System.Drawing.Point(36, 333);
             this.house3.Name = "house3";
             this.house3.Size = new System.Drawing.Size(119, 22);
             this.house3.TabIndex = 10;
@@ -166,7 +166,7 @@
             // house2
             // 
             this.house2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house2.Location = new System.Drawing.Point(36, 362);
+            this.house2.Location = new System.Drawing.Point(36, 305);
             this.house2.Name = "house2";
             this.house2.Size = new System.Drawing.Size(119, 22);
             this.house2.TabIndex = 9;
@@ -176,7 +176,7 @@
             // house1
             // 
             this.house1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house1.Location = new System.Drawing.Point(36, 334);
+            this.house1.Location = new System.Drawing.Point(36, 277);
             this.house1.Name = "house1";
             this.house1.Size = new System.Drawing.Size(119, 22);
             this.house1.TabIndex = 8;
@@ -187,7 +187,7 @@
             // 
             this.houseLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.houseLabel.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.houseLabel.Location = new System.Drawing.Point(37, 256);
+            this.houseLabel.Location = new System.Drawing.Point(37, 199);
             this.houseLabel.Name = "houseLabel";
             this.houseLabel.Size = new System.Drawing.Size(118, 75);
             this.houseLabel.TabIndex = 7;
@@ -198,7 +198,7 @@
             // numberOfKids4
             // 
             this.numberOfKids4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids4.Location = new System.Drawing.Point(215, 190);
+            this.numberOfKids4.Location = new System.Drawing.Point(215, 171);
             this.numberOfKids4.Name = "numberOfKids4";
             this.numberOfKids4.Size = new System.Drawing.Size(119, 22);
             this.numberOfKids4.TabIndex = 16;
@@ -208,7 +208,7 @@
             // numberOfKids3
             // 
             this.numberOfKids3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids3.Location = new System.Drawing.Point(215, 162);
+            this.numberOfKids3.Location = new System.Drawing.Point(215, 143);
             this.numberOfKids3.Name = "numberOfKids3";
             this.numberOfKids3.Size = new System.Drawing.Size(119, 22);
             this.numberOfKids3.TabIndex = 15;
@@ -218,7 +218,7 @@
             // numberOfKids2
             // 
             this.numberOfKids2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids2.Location = new System.Drawing.Point(215, 134);
+            this.numberOfKids2.Location = new System.Drawing.Point(215, 115);
             this.numberOfKids2.Name = "numberOfKids2";
             this.numberOfKids2.Size = new System.Drawing.Size(119, 22);
             this.numberOfKids2.TabIndex = 14;
@@ -228,7 +228,7 @@
             // numberOfKids1
             // 
             this.numberOfKids1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids1.Location = new System.Drawing.Point(215, 106);
+            this.numberOfKids1.Location = new System.Drawing.Point(215, 87);
             this.numberOfKids1.Name = "numberOfKids1";
             this.numberOfKids1.Size = new System.Drawing.Size(119, 22);
             this.numberOfKids1.TabIndex = 13;
@@ -239,7 +239,7 @@
             // 
             this.numberOfKidsLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.numberOfKidsLabel.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKidsLabel.Location = new System.Drawing.Point(216, 28);
+            this.numberOfKidsLabel.Location = new System.Drawing.Point(216, 9);
             this.numberOfKidsLabel.Name = "numberOfKidsLabel";
             this.numberOfKidsLabel.Size = new System.Drawing.Size(118, 75);
             this.numberOfKidsLabel.TabIndex = 12;
@@ -250,7 +250,7 @@
             // vehicle4
             // 
             this.vehicle4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle4.Location = new System.Drawing.Point(400, 190);
+            this.vehicle4.Location = new System.Drawing.Point(400, 171);
             this.vehicle4.Name = "vehicle4";
             this.vehicle4.Size = new System.Drawing.Size(119, 22);
             this.vehicle4.TabIndex = 21;
@@ -260,7 +260,7 @@
             // vehicle3
             // 
             this.vehicle3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle3.Location = new System.Drawing.Point(400, 162);
+            this.vehicle3.Location = new System.Drawing.Point(400, 143);
             this.vehicle3.Name = "vehicle3";
             this.vehicle3.Size = new System.Drawing.Size(119, 22);
             this.vehicle3.TabIndex = 20;
@@ -270,7 +270,7 @@
             // vehicle2
             // 
             this.vehicle2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle2.Location = new System.Drawing.Point(400, 134);
+            this.vehicle2.Location = new System.Drawing.Point(400, 115);
             this.vehicle2.Name = "vehicle2";
             this.vehicle2.Size = new System.Drawing.Size(119, 22);
             this.vehicle2.TabIndex = 19;
@@ -280,7 +280,7 @@
             // vehicle1
             // 
             this.vehicle1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle1.Location = new System.Drawing.Point(400, 106);
+            this.vehicle1.Location = new System.Drawing.Point(400, 87);
             this.vehicle1.Name = "vehicle1";
             this.vehicle1.Size = new System.Drawing.Size(119, 22);
             this.vehicle1.TabIndex = 18;
@@ -291,7 +291,7 @@
             // 
             this.vehicleLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.vehicleLabel.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicleLabel.Location = new System.Drawing.Point(401, 28);
+            this.vehicleLabel.Location = new System.Drawing.Point(401, 9);
             this.vehicleLabel.Name = "vehicleLabel";
             this.vehicleLabel.Size = new System.Drawing.Size(118, 75);
             this.vehicleLabel.TabIndex = 17;
@@ -302,7 +302,7 @@
             // pets4
             // 
             this.pets4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets4.Location = new System.Drawing.Point(215, 418);
+            this.pets4.Location = new System.Drawing.Point(215, 361);
             this.pets4.Name = "pets4";
             this.pets4.Size = new System.Drawing.Size(119, 22);
             this.pets4.TabIndex = 26;
@@ -312,7 +312,7 @@
             // pets3
             // 
             this.pets3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets3.Location = new System.Drawing.Point(215, 390);
+            this.pets3.Location = new System.Drawing.Point(215, 333);
             this.pets3.Name = "pets3";
             this.pets3.Size = new System.Drawing.Size(119, 22);
             this.pets3.TabIndex = 25;
@@ -322,7 +322,7 @@
             // pets2
             // 
             this.pets2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets2.Location = new System.Drawing.Point(215, 362);
+            this.pets2.Location = new System.Drawing.Point(215, 305);
             this.pets2.Name = "pets2";
             this.pets2.Size = new System.Drawing.Size(119, 22);
             this.pets2.TabIndex = 24;
@@ -332,7 +332,7 @@
             // pets1
             // 
             this.pets1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets1.Location = new System.Drawing.Point(215, 334);
+            this.pets1.Location = new System.Drawing.Point(215, 277);
             this.pets1.Name = "pets1";
             this.pets1.Size = new System.Drawing.Size(119, 22);
             this.pets1.TabIndex = 23;
@@ -343,7 +343,7 @@
             // 
             this.petsLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.petsLabel.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.petsLabel.Location = new System.Drawing.Point(216, 256);
+            this.petsLabel.Location = new System.Drawing.Point(216, 199);
             this.petsLabel.Name = "petsLabel";
             this.petsLabel.Size = new System.Drawing.Size(118, 75);
             this.petsLabel.TabIndex = 22;
@@ -354,7 +354,7 @@
             // income4
             // 
             this.income4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income4.Location = new System.Drawing.Point(400, 418);
+            this.income4.Location = new System.Drawing.Point(400, 361);
             this.income4.Name = "income4";
             this.income4.Size = new System.Drawing.Size(119, 22);
             this.income4.TabIndex = 31;
@@ -364,7 +364,7 @@
             // income3
             // 
             this.income3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income3.Location = new System.Drawing.Point(400, 390);
+            this.income3.Location = new System.Drawing.Point(400, 333);
             this.income3.Name = "income3";
             this.income3.Size = new System.Drawing.Size(119, 22);
             this.income3.TabIndex = 30;
@@ -374,7 +374,7 @@
             // income2
             // 
             this.income2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income2.Location = new System.Drawing.Point(400, 362);
+            this.income2.Location = new System.Drawing.Point(400, 305);
             this.income2.Name = "income2";
             this.income2.Size = new System.Drawing.Size(119, 22);
             this.income2.TabIndex = 29;
@@ -384,7 +384,7 @@
             // income1
             // 
             this.income1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income1.Location = new System.Drawing.Point(400, 334);
+            this.income1.Location = new System.Drawing.Point(400, 277);
             this.income1.Name = "income1";
             this.income1.Size = new System.Drawing.Size(119, 22);
             this.income1.TabIndex = 28;
@@ -395,7 +395,7 @@
             // 
             this.incomeLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.incomeLabel.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incomeLabel.Location = new System.Drawing.Point(401, 256);
+            this.incomeLabel.Location = new System.Drawing.Point(401, 199);
             this.incomeLabel.Name = "incomeLabel";
             this.incomeLabel.Size = new System.Drawing.Size(118, 75);
             this.incomeLabel.TabIndex = 27;
