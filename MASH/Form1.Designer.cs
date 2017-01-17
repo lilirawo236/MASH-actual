@@ -60,6 +60,8 @@
             this.income2 = new System.Windows.Forms.TextBox();
             this.income1 = new System.Windows.Forms.TextBox();
             this.incomeLabel = new System.Windows.Forms.Label();
+            this.outputLabel1 = new System.Windows.Forms.Label();
+            this.nextButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -405,12 +407,24 @@
             // 
             // outputLabel1
             // 
-            //this.outputLabel1.AutoSize = true;
-           //this.outputLabel1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            //this.outputLabel1.Location = new System.Drawing.Point(39, 420);
-            //this.outputLabel1.Name = "outputLabel1";
-            //this.outputLabel1.Size = new System.Drawing.Size(0, 22);
-            //this.outputLabel1.TabIndex = 32;
+            this.outputLabel1.AutoSize = true;
+            this.outputLabel1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel1.Location = new System.Drawing.Point(39, 420);
+            this.outputLabel1.Name = "outputLabel1";
+            this.outputLabel1.Size = new System.Drawing.Size(0, 22);
+            this.outputLabel1.TabIndex = 32;
+            // 
+            // nextButton
+            // 
+            this.nextButton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.nextButton.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Location = new System.Drawing.Point(400, 407);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(119, 48);
+            this.nextButton.TabIndex = 33;
+            this.nextButton.Text = "Next";
+            this.nextButton.UseVisualStyleBackColor = false;
+            this.nextButton.Visible = false;
             // 
             // Form1
             // 
@@ -418,6 +432,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
+            this.Controls.Add(this.nextButton);
+            this.Controls.Add(this.outputLabel1);
             this.Controls.Add(this.income4);
             this.Controls.Add(this.income3);
             this.Controls.Add(this.income2);
@@ -491,6 +507,8 @@
         private System.Windows.Forms.TextBox income2;
         private System.Windows.Forms.TextBox income1;
         private System.Windows.Forms.Label incomeLabel;
+        private System.Windows.Forms.Label outputLabel1;
+        private System.Windows.Forms.Button nextButton;
     }
 }
 
