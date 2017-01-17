@@ -34,7 +34,7 @@ namespace MASH
             startButton.Visible = false;
             titleLabel.Visible = false;
             this.BackColor = Color.White;
-
+            outputLabel1.Text = "Please input your options for each category";
             //bringing up category inputs
             careerLabel1.Visible = true;
             career1.Visible = true;

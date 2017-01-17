@@ -60,13 +60,12 @@
             this.income2 = new System.Windows.Forms.TextBox();
             this.income1 = new System.Windows.Forms.TextBox();
             this.incomeLabel = new System.Windows.Forms.Label();
-            this.nextButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleLabel
             // 
             this.titleLabel.BackColor = System.Drawing.Color.Transparent;
-            this.titleLabel.Font = new System.Drawing.Font("Jokerman", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.LimeGreen;
             this.titleLabel.Location = new System.Drawing.Point(60, 112);
             this.titleLabel.Name = "titleLabel";
@@ -80,7 +79,7 @@
             this.startButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.startButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.startButton.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startButton.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.startButton.Location = new System.Drawing.Point(151, 286);
             this.startButton.Name = "startButton";
@@ -404,28 +403,12 @@
             this.incomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.incomeLabel.Visible = false;
             // 
-            // nextButton
-            // 
-            this.nextButton.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.nextButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextButton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.nextButton.Location = new System.Drawing.Point(407, 416);
-            this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(103, 43);
-            this.nextButton.TabIndex = 32;
-            this.nextButton.Text = "Next";
-            this.nextButton.UseVisualStyleBackColor = false;
-            this.nextButton.Visible = false;
-            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
-            this.Controls.Add(this.nextButton);
             this.Controls.Add(this.income4);
             this.Controls.Add(this.income3);
             this.Controls.Add(this.income2);
@@ -499,7 +482,6 @@
         private System.Windows.Forms.TextBox income2;
         private System.Windows.Forms.TextBox income1;
         private System.Windows.Forms.Label incomeLabel;
-        private System.Windows.Forms.Button nextButton;
     }
 }
 
