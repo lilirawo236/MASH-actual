@@ -71,6 +71,13 @@ namespace MASH
             income2.Visible = true;
             income3.Visible = true;
             income4.Visible = true;
+
+            nextButton.Visible = true;
+        }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -60,7 +60,6 @@
             this.income2 = new System.Windows.Forms.TextBox();
             this.income1 = new System.Windows.Forms.TextBox();
             this.incomeLabel = new System.Windows.Forms.Label();
-            this.outputLabel1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -408,7 +407,7 @@
             // 
             this.outputLabel1.AutoSize = true;
             this.outputLabel1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel1.Location = new System.Drawing.Point(32, 424);
+            this.outputLabel1.Location = new System.Drawing.Point(39, 420);
             this.outputLabel1.Name = "outputLabel1";
             this.outputLabel1.Size = new System.Drawing.Size(0, 22);
             this.outputLabel1.TabIndex = 32;
@@ -419,7 +418,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
-            this.Controls.Add(this.outputLabel1);
             this.Controls.Add(this.income4);
             this.Controls.Add(this.income3);
             this.Controls.Add(this.income2);
@@ -493,7 +491,6 @@
         private System.Windows.Forms.TextBox income2;
         private System.Windows.Forms.TextBox income1;
         private System.Windows.Forms.Label incomeLabel;
-        private System.Windows.Forms.Label outputLabel1;
     }
 }
 
