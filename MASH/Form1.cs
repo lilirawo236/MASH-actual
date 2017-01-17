@@ -74,7 +74,7 @@ namespace MASH
 
             nextButton.Visible = true;
         }
-        //new change for commit and sync
+        
         private void nextButton_Click(object sender, EventArgs e)
         {
 
