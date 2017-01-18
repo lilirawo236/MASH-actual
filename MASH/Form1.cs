@@ -80,6 +80,13 @@ namespace MASH
             income3.Visible = true;
             income4.Visible = true;
 
+            blueBox.Image = null;
+            yellowBox.Image = null;
+            greenBox.Image = null;
+            //greenBox.Hide();
+            //yellowBox.Hide();
+            //greenLabel.Hide();
+            //yellowLabel.Hide();
             nextButton.Visible = true;
             #endregion
         }
@@ -87,6 +94,10 @@ namespace MASH
         private void nextButton_Click(object sender, EventArgs e)
         {
 
+            this.Refresh();
+            titleLabel.Text = "Before the game start, we would like you to answer some questions.";
+          
+            nextButton.Text = "Continue";
         }
     }
 }

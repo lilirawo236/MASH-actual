@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.titleLabel = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
             this.careerLabel1 = new System.Windows.Forms.Label();
@@ -62,6 +63,15 @@
             this.incomeLabel = new System.Windows.Forms.Label();
             this.outputLabel1 = new System.Windows.Forms.Label();
             this.nextButton = new System.Windows.Forms.Button();
+            this.blueBox = new System.Windows.Forms.PictureBox();
+            this.yellowBox = new System.Windows.Forms.PictureBox();
+            this.greenLabel = new System.Windows.Forms.Label();
+            this.blueLabel = new System.Windows.Forms.Label();
+            this.greenBox = new System.Windows.Forms.PictureBox();
+            this.yellowLabel = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -419,7 +429,7 @@
             // nextButton
             // 
             this.nextButton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.nextButton.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nextButton.Location = new System.Drawing.Point(400, 407);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(119, 48);
@@ -427,6 +437,76 @@
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
+            // 
+            // blueBox
+            // 
+            this.blueBox.BackColor = System.Drawing.Color.Transparent;
+            this.blueBox.Image = ((System.Drawing.Image)(resources.GetObject("blueBox.Image")));
+            this.blueBox.Location = new System.Drawing.Point(36, 361);
+            this.blueBox.Name = "blueBox";
+            this.blueBox.Size = new System.Drawing.Size(49, 48);
+            this.blueBox.TabIndex = 34;
+            this.blueBox.TabStop = false;
+            this.blueBox.Visible = false;
+            // 
+            // yellowBox
+            // 
+            this.yellowBox.BackColor = System.Drawing.Color.Transparent;
+            this.yellowBox.Image = ((System.Drawing.Image)(resources.GetObject("yellowBox.Image")));
+            this.yellowBox.Location = new System.Drawing.Point(36, 182);
+            this.yellowBox.Name = "yellowBox";
+            this.yellowBox.Size = new System.Drawing.Size(49, 48);
+            this.yellowBox.TabIndex = 35;
+            this.yellowBox.TabStop = false;
+            this.yellowBox.Visible = false;
+            // 
+            // greenLabel
+            // 
+            this.greenLabel.BackColor = System.Drawing.Color.Transparent;
+            this.greenLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.greenLabel.ForeColor = System.Drawing.Color.Red;
+            this.greenLabel.Location = new System.Drawing.Point(91, 265);
+            this.greenLabel.Name = "greenLabel";
+            this.greenLabel.Size = new System.Drawing.Size(428, 65);
+            this.greenLabel.TabIndex = 36;
+            this.greenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.greenLabel.Visible = false;
+            // 
+            // blueLabel
+            // 
+            this.blueLabel.BackColor = System.Drawing.Color.Transparent;
+            this.blueLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blueLabel.ForeColor = System.Drawing.Color.Red;
+            this.blueLabel.Location = new System.Drawing.Point(91, 358);
+            this.blueLabel.Name = "blueLabel";
+            this.blueLabel.Size = new System.Drawing.Size(428, 65);
+            this.blueLabel.TabIndex = 37;
+            this.blueLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.blueLabel.Visible = false;
+            // 
+            // greenBox
+            // 
+            this.greenBox.BackColor = System.Drawing.Color.Transparent;
+            this.greenBox.Image = ((System.Drawing.Image)(resources.GetObject("greenBox.Image")));
+            this.greenBox.Location = new System.Drawing.Point(36, 268);
+            this.greenBox.Name = "greenBox";
+            this.greenBox.Size = new System.Drawing.Size(49, 48);
+            this.greenBox.TabIndex = 38;
+            this.greenBox.TabStop = false;
+            this.greenBox.Visible = false;
+            // 
+            // yellowLabel
+            // 
+            this.yellowLabel.BackColor = System.Drawing.Color.Transparent;
+            this.yellowLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yellowLabel.ForeColor = System.Drawing.Color.Red;
+            this.yellowLabel.Location = new System.Drawing.Point(91, 182);
+            this.yellowLabel.Name = "yellowLabel";
+            this.yellowLabel.Size = new System.Drawing.Size(428, 65);
+            this.yellowLabel.TabIndex = 39;
+            this.yellowLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.yellowLabel.Visible = false;
             // 
             // Form1
             // 
@@ -434,6 +514,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
+            this.Controls.Add(this.yellowLabel);
+            this.Controls.Add(this.greenBox);
+            this.Controls.Add(this.blueLabel);
+            this.Controls.Add(this.greenLabel);
+            this.Controls.Add(this.yellowBox);
+            this.Controls.Add(this.blueBox);
             this.Controls.Add(this.nextButton);
             this.Controls.Add(this.outputLabel1);
             this.Controls.Add(this.income4);
@@ -470,6 +556,9 @@
             this.Controls.Add(this.titleLabel);
             this.Name = "Form1";
             this.Text = "Mash Game";
+            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -511,6 +600,12 @@
         private System.Windows.Forms.Label incomeLabel;
         private System.Windows.Forms.Label outputLabel1;
         private System.Windows.Forms.Button nextButton;
+        private System.Windows.Forms.PictureBox blueBox;
+        private System.Windows.Forms.PictureBox yellowBox;
+        private System.Windows.Forms.Label greenLabel;
+        private System.Windows.Forms.Label blueLabel;
+        private System.Windows.Forms.PictureBox greenBox;
+        private System.Windows.Forms.Label yellowLabel;
     }
 }
 
