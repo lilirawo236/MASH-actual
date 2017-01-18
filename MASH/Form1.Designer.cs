@@ -31,34 +31,34 @@
             this.titleLabel = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
             this.careerLabel1 = new System.Windows.Forms.Label();
-            this.career1 = new System.Windows.Forms.TextBox();
-            this.career2 = new System.Windows.Forms.TextBox();
-            this.career3 = new System.Windows.Forms.TextBox();
-            this.career4 = new System.Windows.Forms.TextBox();
-            this.house4 = new System.Windows.Forms.TextBox();
-            this.house3 = new System.Windows.Forms.TextBox();
-            this.house2 = new System.Windows.Forms.TextBox();
-            this.house1 = new System.Windows.Forms.TextBox();
+            this.careerInput1 = new System.Windows.Forms.TextBox();
+            this.careerInput2 = new System.Windows.Forms.TextBox();
+            this.careerInput3 = new System.Windows.Forms.TextBox();
+            this.careerInput4 = new System.Windows.Forms.TextBox();
+            this.houseInput4 = new System.Windows.Forms.TextBox();
+            this.houseInput3 = new System.Windows.Forms.TextBox();
+            this.houseInput2 = new System.Windows.Forms.TextBox();
+            this.houseInput1 = new System.Windows.Forms.TextBox();
             this.houseLabel = new System.Windows.Forms.Label();
-            this.numberOfKids4 = new System.Windows.Forms.TextBox();
-            this.numberOfKids3 = new System.Windows.Forms.TextBox();
-            this.numberOfKids2 = new System.Windows.Forms.TextBox();
-            this.numberOfKids1 = new System.Windows.Forms.TextBox();
+            this.numberOfKidsInput4 = new System.Windows.Forms.TextBox();
+            this.numberOfKidsInput3 = new System.Windows.Forms.TextBox();
+            this.numberOfKidsInput2 = new System.Windows.Forms.TextBox();
+            this.numberOfKidsInput1 = new System.Windows.Forms.TextBox();
             this.numberOfKidsLabel = new System.Windows.Forms.Label();
-            this.vehicle4 = new System.Windows.Forms.TextBox();
-            this.vehicle3 = new System.Windows.Forms.TextBox();
-            this.vehicle2 = new System.Windows.Forms.TextBox();
-            this.vehicle1 = new System.Windows.Forms.TextBox();
+            this.vehicleInput4 = new System.Windows.Forms.TextBox();
+            this.vehicleInput3 = new System.Windows.Forms.TextBox();
+            this.vehicleInput2 = new System.Windows.Forms.TextBox();
+            this.vehicleInput1 = new System.Windows.Forms.TextBox();
             this.vehicleLabel = new System.Windows.Forms.Label();
-            this.pets4 = new System.Windows.Forms.TextBox();
-            this.pets3 = new System.Windows.Forms.TextBox();
-            this.pets2 = new System.Windows.Forms.TextBox();
-            this.pets1 = new System.Windows.Forms.TextBox();
+            this.petsInput4 = new System.Windows.Forms.TextBox();
+            this.petsInput3 = new System.Windows.Forms.TextBox();
+            this.petsInput2 = new System.Windows.Forms.TextBox();
+            this.petsInput1 = new System.Windows.Forms.TextBox();
             this.petsLabel = new System.Windows.Forms.Label();
-            this.income4 = new System.Windows.Forms.TextBox();
-            this.income3 = new System.Windows.Forms.TextBox();
-            this.income2 = new System.Windows.Forms.TextBox();
-            this.income1 = new System.Windows.Forms.TextBox();
+            this.incomeInput4 = new System.Windows.Forms.TextBox();
+            this.incomeInput3 = new System.Windows.Forms.TextBox();
+            this.incomeInput2 = new System.Windows.Forms.TextBox();
+            this.incomeInput1 = new System.Windows.Forms.TextBox();
             this.incomeLabel = new System.Windows.Forms.Label();
             this.outputLabel1 = new System.Windows.Forms.Label();
             this.nextButton = new System.Windows.Forms.Button();
@@ -88,7 +88,7 @@
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(255, 83);
             this.startButton.TabIndex = 1;
-            this.startButton.Text = "EXPLORE THE MAGIC";
+            this.startButton.Text = "START GAME";
             this.startButton.UseVisualStyleBackColor = false;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
             this.startButton.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
@@ -106,85 +106,85 @@
             this.careerLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.careerLabel1.Visible = false;
             // 
-            // career1
+            // careerInput1
             // 
-            this.career1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career1.Location = new System.Drawing.Point(36, 87);
-            this.career1.Name = "career1";
-            this.career1.Size = new System.Drawing.Size(119, 22);
-            this.career1.TabIndex = 3;
-            this.career1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.career1.Visible = false;
+            this.careerInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.careerInput1.Location = new System.Drawing.Point(36, 87);
+            this.careerInput1.Name = "careerInput1";
+            this.careerInput1.Size = new System.Drawing.Size(119, 22);
+            this.careerInput1.TabIndex = 3;
+            this.careerInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.careerInput1.Visible = false;
             // 
-            // career2
+            // careerInput2
             // 
-            this.career2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career2.Location = new System.Drawing.Point(36, 115);
-            this.career2.Name = "career2";
-            this.career2.Size = new System.Drawing.Size(119, 22);
-            this.career2.TabIndex = 4;
-            this.career2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.career2.Visible = false;
+            this.careerInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.careerInput2.Location = new System.Drawing.Point(36, 115);
+            this.careerInput2.Name = "careerInput2";
+            this.careerInput2.Size = new System.Drawing.Size(119, 22);
+            this.careerInput2.TabIndex = 4;
+            this.careerInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.careerInput2.Visible = false;
             // 
-            // career3
+            // careerInput3
             // 
-            this.career3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career3.Location = new System.Drawing.Point(36, 143);
-            this.career3.Name = "career3";
-            this.career3.Size = new System.Drawing.Size(119, 22);
-            this.career3.TabIndex = 5;
-            this.career3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.career3.Visible = false;
+            this.careerInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.careerInput3.Location = new System.Drawing.Point(36, 143);
+            this.careerInput3.Name = "careerInput3";
+            this.careerInput3.Size = new System.Drawing.Size(119, 22);
+            this.careerInput3.TabIndex = 5;
+            this.careerInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.careerInput3.Visible = false;
             // 
-            // career4
+            // careerInput4
             // 
-            this.career4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.career4.Location = new System.Drawing.Point(36, 171);
-            this.career4.Name = "career4";
-            this.career4.Size = new System.Drawing.Size(119, 22);
-            this.career4.TabIndex = 6;
-            this.career4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.career4.Visible = false;
+            this.careerInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.careerInput4.Location = new System.Drawing.Point(36, 171);
+            this.careerInput4.Name = "careerInput4";
+            this.careerInput4.Size = new System.Drawing.Size(119, 22);
+            this.careerInput4.TabIndex = 6;
+            this.careerInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.careerInput4.Visible = false;
             // 
-            // house4
+            // houseInput4
             // 
-            this.house4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house4.Location = new System.Drawing.Point(36, 361);
-            this.house4.Name = "house4";
-            this.house4.Size = new System.Drawing.Size(119, 22);
-            this.house4.TabIndex = 11;
-            this.house4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.house4.Visible = false;
+            this.houseInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.houseInput4.Location = new System.Drawing.Point(36, 361);
+            this.houseInput4.Name = "houseInput4";
+            this.houseInput4.Size = new System.Drawing.Size(119, 22);
+            this.houseInput4.TabIndex = 11;
+            this.houseInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.houseInput4.Visible = false;
             // 
-            // house3
+            // houseInput3
             // 
-            this.house3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house3.Location = new System.Drawing.Point(36, 333);
-            this.house3.Name = "house3";
-            this.house3.Size = new System.Drawing.Size(119, 22);
-            this.house3.TabIndex = 10;
-            this.house3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.house3.Visible = false;
+            this.houseInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.houseInput3.Location = new System.Drawing.Point(36, 333);
+            this.houseInput3.Name = "houseInput3";
+            this.houseInput3.Size = new System.Drawing.Size(119, 22);
+            this.houseInput3.TabIndex = 10;
+            this.houseInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.houseInput3.Visible = false;
             // 
-            // house2
+            // houseInput2
             // 
-            this.house2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house2.Location = new System.Drawing.Point(36, 305);
-            this.house2.Name = "house2";
-            this.house2.Size = new System.Drawing.Size(119, 22);
-            this.house2.TabIndex = 9;
-            this.house2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.house2.Visible = false;
+            this.houseInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.houseInput2.Location = new System.Drawing.Point(36, 305);
+            this.houseInput2.Name = "houseInput2";
+            this.houseInput2.Size = new System.Drawing.Size(119, 22);
+            this.houseInput2.TabIndex = 9;
+            this.houseInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.houseInput2.Visible = false;
             // 
-            // house1
+            // houseInput1
             // 
-            this.house1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.house1.Location = new System.Drawing.Point(36, 277);
-            this.house1.Name = "house1";
-            this.house1.Size = new System.Drawing.Size(119, 22);
-            this.house1.TabIndex = 8;
-            this.house1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.house1.Visible = false;
+            this.houseInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.houseInput1.Location = new System.Drawing.Point(36, 277);
+            this.houseInput1.Name = "houseInput1";
+            this.houseInput1.Size = new System.Drawing.Size(119, 22);
+            this.houseInput1.TabIndex = 8;
+            this.houseInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.houseInput1.Visible = false;
             // 
             // houseLabel
             // 
@@ -198,45 +198,45 @@
             this.houseLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.houseLabel.Visible = false;
             // 
-            // numberOfKids4
+            // numberOfKidsInput4
             // 
-            this.numberOfKids4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids4.Location = new System.Drawing.Point(215, 171);
-            this.numberOfKids4.Name = "numberOfKids4";
-            this.numberOfKids4.Size = new System.Drawing.Size(119, 22);
-            this.numberOfKids4.TabIndex = 16;
-            this.numberOfKids4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.numberOfKids4.Visible = false;
+            this.numberOfKidsInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberOfKidsInput4.Location = new System.Drawing.Point(215, 171);
+            this.numberOfKidsInput4.Name = "numberOfKidsInput4";
+            this.numberOfKidsInput4.Size = new System.Drawing.Size(119, 22);
+            this.numberOfKidsInput4.TabIndex = 16;
+            this.numberOfKidsInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numberOfKidsInput4.Visible = false;
             // 
-            // numberOfKids3
+            // numberOfKidsInput3
             // 
-            this.numberOfKids3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids3.Location = new System.Drawing.Point(215, 143);
-            this.numberOfKids3.Name = "numberOfKids3";
-            this.numberOfKids3.Size = new System.Drawing.Size(119, 22);
-            this.numberOfKids3.TabIndex = 15;
-            this.numberOfKids3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.numberOfKids3.Visible = false;
+            this.numberOfKidsInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberOfKidsInput3.Location = new System.Drawing.Point(215, 143);
+            this.numberOfKidsInput3.Name = "numberOfKidsInput3";
+            this.numberOfKidsInput3.Size = new System.Drawing.Size(119, 22);
+            this.numberOfKidsInput3.TabIndex = 15;
+            this.numberOfKidsInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numberOfKidsInput3.Visible = false;
             // 
-            // numberOfKids2
+            // numberOfKidsInput2
             // 
-            this.numberOfKids2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids2.Location = new System.Drawing.Point(215, 115);
-            this.numberOfKids2.Name = "numberOfKids2";
-            this.numberOfKids2.Size = new System.Drawing.Size(119, 22);
-            this.numberOfKids2.TabIndex = 14;
-            this.numberOfKids2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.numberOfKids2.Visible = false;
+            this.numberOfKidsInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberOfKidsInput2.Location = new System.Drawing.Point(215, 115);
+            this.numberOfKidsInput2.Name = "numberOfKidsInput2";
+            this.numberOfKidsInput2.Size = new System.Drawing.Size(119, 22);
+            this.numberOfKidsInput2.TabIndex = 14;
+            this.numberOfKidsInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numberOfKidsInput2.Visible = false;
             // 
-            // numberOfKids1
+            // numberOfKidsInput1
             // 
-            this.numberOfKids1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberOfKids1.Location = new System.Drawing.Point(215, 87);
-            this.numberOfKids1.Name = "numberOfKids1";
-            this.numberOfKids1.Size = new System.Drawing.Size(119, 22);
-            this.numberOfKids1.TabIndex = 13;
-            this.numberOfKids1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.numberOfKids1.Visible = false;
+            this.numberOfKidsInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberOfKidsInput1.Location = new System.Drawing.Point(215, 87);
+            this.numberOfKidsInput1.Name = "numberOfKidsInput1";
+            this.numberOfKidsInput1.Size = new System.Drawing.Size(119, 22);
+            this.numberOfKidsInput1.TabIndex = 13;
+            this.numberOfKidsInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numberOfKidsInput1.Visible = false;
             // 
             // numberOfKidsLabel
             // 
@@ -250,45 +250,45 @@
             this.numberOfKidsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.numberOfKidsLabel.Visible = false;
             // 
-            // vehicle4
+            // vehicleInput4
             // 
-            this.vehicle4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle4.Location = new System.Drawing.Point(400, 171);
-            this.vehicle4.Name = "vehicle4";
-            this.vehicle4.Size = new System.Drawing.Size(119, 22);
-            this.vehicle4.TabIndex = 21;
-            this.vehicle4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.vehicle4.Visible = false;
+            this.vehicleInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleInput4.Location = new System.Drawing.Point(400, 171);
+            this.vehicleInput4.Name = "vehicleInput4";
+            this.vehicleInput4.Size = new System.Drawing.Size(119, 22);
+            this.vehicleInput4.TabIndex = 21;
+            this.vehicleInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vehicleInput4.Visible = false;
             // 
-            // vehicle3
+            // vehicleInput3
             // 
-            this.vehicle3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle3.Location = new System.Drawing.Point(400, 143);
-            this.vehicle3.Name = "vehicle3";
-            this.vehicle3.Size = new System.Drawing.Size(119, 22);
-            this.vehicle3.TabIndex = 20;
-            this.vehicle3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.vehicle3.Visible = false;
+            this.vehicleInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleInput3.Location = new System.Drawing.Point(400, 143);
+            this.vehicleInput3.Name = "vehicleInput3";
+            this.vehicleInput3.Size = new System.Drawing.Size(119, 22);
+            this.vehicleInput3.TabIndex = 20;
+            this.vehicleInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vehicleInput3.Visible = false;
             // 
-            // vehicle2
+            // vehicleInput2
             // 
-            this.vehicle2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle2.Location = new System.Drawing.Point(400, 115);
-            this.vehicle2.Name = "vehicle2";
-            this.vehicle2.Size = new System.Drawing.Size(119, 22);
-            this.vehicle2.TabIndex = 19;
-            this.vehicle2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.vehicle2.Visible = false;
+            this.vehicleInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleInput2.Location = new System.Drawing.Point(400, 115);
+            this.vehicleInput2.Name = "vehicleInput2";
+            this.vehicleInput2.Size = new System.Drawing.Size(119, 22);
+            this.vehicleInput2.TabIndex = 19;
+            this.vehicleInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vehicleInput2.Visible = false;
             // 
-            // vehicle1
+            // vehicleInput1
             // 
-            this.vehicle1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vehicle1.Location = new System.Drawing.Point(400, 87);
-            this.vehicle1.Name = "vehicle1";
-            this.vehicle1.Size = new System.Drawing.Size(119, 22);
-            this.vehicle1.TabIndex = 18;
-            this.vehicle1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.vehicle1.Visible = false;
+            this.vehicleInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleInput1.Location = new System.Drawing.Point(400, 87);
+            this.vehicleInput1.Name = "vehicleInput1";
+            this.vehicleInput1.Size = new System.Drawing.Size(119, 22);
+            this.vehicleInput1.TabIndex = 18;
+            this.vehicleInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vehicleInput1.Visible = false;
             // 
             // vehicleLabel
             // 
@@ -302,45 +302,45 @@
             this.vehicleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.vehicleLabel.Visible = false;
             // 
-            // pets4
+            // petsInput4
             // 
-            this.pets4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets4.Location = new System.Drawing.Point(215, 361);
-            this.pets4.Name = "pets4";
-            this.pets4.Size = new System.Drawing.Size(119, 22);
-            this.pets4.TabIndex = 26;
-            this.pets4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.pets4.Visible = false;
+            this.petsInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petsInput4.Location = new System.Drawing.Point(215, 361);
+            this.petsInput4.Name = "petsInput4";
+            this.petsInput4.Size = new System.Drawing.Size(119, 22);
+            this.petsInput4.TabIndex = 26;
+            this.petsInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.petsInput4.Visible = false;
             // 
-            // pets3
+            // petsInput3
             // 
-            this.pets3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets3.Location = new System.Drawing.Point(215, 333);
-            this.pets3.Name = "pets3";
-            this.pets3.Size = new System.Drawing.Size(119, 22);
-            this.pets3.TabIndex = 25;
-            this.pets3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.pets3.Visible = false;
+            this.petsInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petsInput3.Location = new System.Drawing.Point(215, 333);
+            this.petsInput3.Name = "petsInput3";
+            this.petsInput3.Size = new System.Drawing.Size(119, 22);
+            this.petsInput3.TabIndex = 25;
+            this.petsInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.petsInput3.Visible = false;
             // 
-            // pets2
+            // petsInput2
             // 
-            this.pets2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets2.Location = new System.Drawing.Point(215, 305);
-            this.pets2.Name = "pets2";
-            this.pets2.Size = new System.Drawing.Size(119, 22);
-            this.pets2.TabIndex = 24;
-            this.pets2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.pets2.Visible = false;
+            this.petsInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petsInput2.Location = new System.Drawing.Point(215, 305);
+            this.petsInput2.Name = "petsInput2";
+            this.petsInput2.Size = new System.Drawing.Size(119, 22);
+            this.petsInput2.TabIndex = 24;
+            this.petsInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.petsInput2.Visible = false;
             // 
-            // pets1
+            // petsInput1
             // 
-            this.pets1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pets1.Location = new System.Drawing.Point(215, 277);
-            this.pets1.Name = "pets1";
-            this.pets1.Size = new System.Drawing.Size(119, 22);
-            this.pets1.TabIndex = 23;
-            this.pets1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.pets1.Visible = false;
+            this.petsInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petsInput1.Location = new System.Drawing.Point(215, 277);
+            this.petsInput1.Name = "petsInput1";
+            this.petsInput1.Size = new System.Drawing.Size(119, 22);
+            this.petsInput1.TabIndex = 23;
+            this.petsInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.petsInput1.Visible = false;
             // 
             // petsLabel
             // 
@@ -354,45 +354,45 @@
             this.petsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.petsLabel.Visible = false;
             // 
-            // income4
+            // incomeInput4
             // 
-            this.income4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income4.Location = new System.Drawing.Point(400, 361);
-            this.income4.Name = "income4";
-            this.income4.Size = new System.Drawing.Size(119, 22);
-            this.income4.TabIndex = 31;
-            this.income4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.income4.Visible = false;
+            this.incomeInput4.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incomeInput4.Location = new System.Drawing.Point(400, 361);
+            this.incomeInput4.Name = "incomeInput4";
+            this.incomeInput4.Size = new System.Drawing.Size(119, 22);
+            this.incomeInput4.TabIndex = 31;
+            this.incomeInput4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incomeInput4.Visible = false;
             // 
-            // income3
+            // incomeInput3
             // 
-            this.income3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income3.Location = new System.Drawing.Point(400, 333);
-            this.income3.Name = "income3";
-            this.income3.Size = new System.Drawing.Size(119, 22);
-            this.income3.TabIndex = 30;
-            this.income3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.income3.Visible = false;
+            this.incomeInput3.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incomeInput3.Location = new System.Drawing.Point(400, 333);
+            this.incomeInput3.Name = "incomeInput3";
+            this.incomeInput3.Size = new System.Drawing.Size(119, 22);
+            this.incomeInput3.TabIndex = 30;
+            this.incomeInput3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incomeInput3.Visible = false;
             // 
-            // income2
+            // incomeInput2
             // 
-            this.income2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income2.Location = new System.Drawing.Point(400, 305);
-            this.income2.Name = "income2";
-            this.income2.Size = new System.Drawing.Size(119, 22);
-            this.income2.TabIndex = 29;
-            this.income2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.income2.Visible = false;
+            this.incomeInput2.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incomeInput2.Location = new System.Drawing.Point(400, 305);
+            this.incomeInput2.Name = "incomeInput2";
+            this.incomeInput2.Size = new System.Drawing.Size(119, 22);
+            this.incomeInput2.TabIndex = 29;
+            this.incomeInput2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incomeInput2.Visible = false;
             // 
-            // income1
+            // incomeInput1
             // 
-            this.income1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.income1.Location = new System.Drawing.Point(400, 277);
-            this.income1.Name = "income1";
-            this.income1.Size = new System.Drawing.Size(119, 22);
-            this.income1.TabIndex = 28;
-            this.income1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.income1.Visible = false;
+            this.incomeInput1.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incomeInput1.Location = new System.Drawing.Point(400, 277);
+            this.incomeInput1.Name = "incomeInput1";
+            this.incomeInput1.Size = new System.Drawing.Size(119, 22);
+            this.incomeInput1.TabIndex = 28;
+            this.incomeInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incomeInput1.Visible = false;
             // 
             // incomeLabel
             // 
@@ -427,6 +427,7 @@
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // Form1
             // 
@@ -436,35 +437,35 @@
             this.ClientSize = new System.Drawing.Size(554, 471);
             this.Controls.Add(this.nextButton);
             this.Controls.Add(this.outputLabel1);
-            this.Controls.Add(this.income4);
-            this.Controls.Add(this.income3);
-            this.Controls.Add(this.income2);
-            this.Controls.Add(this.income1);
+            this.Controls.Add(this.incomeInput4);
+            this.Controls.Add(this.incomeInput3);
+            this.Controls.Add(this.incomeInput2);
+            this.Controls.Add(this.incomeInput1);
             this.Controls.Add(this.incomeLabel);
-            this.Controls.Add(this.pets4);
-            this.Controls.Add(this.pets3);
-            this.Controls.Add(this.pets2);
-            this.Controls.Add(this.pets1);
+            this.Controls.Add(this.petsInput4);
+            this.Controls.Add(this.petsInput3);
+            this.Controls.Add(this.petsInput2);
+            this.Controls.Add(this.petsInput1);
             this.Controls.Add(this.petsLabel);
-            this.Controls.Add(this.vehicle4);
-            this.Controls.Add(this.vehicle3);
-            this.Controls.Add(this.vehicle2);
-            this.Controls.Add(this.vehicle1);
+            this.Controls.Add(this.vehicleInput4);
+            this.Controls.Add(this.vehicleInput3);
+            this.Controls.Add(this.vehicleInput2);
+            this.Controls.Add(this.vehicleInput1);
             this.Controls.Add(this.vehicleLabel);
-            this.Controls.Add(this.numberOfKids4);
-            this.Controls.Add(this.numberOfKids3);
-            this.Controls.Add(this.numberOfKids2);
-            this.Controls.Add(this.numberOfKids1);
+            this.Controls.Add(this.numberOfKidsInput4);
+            this.Controls.Add(this.numberOfKidsInput3);
+            this.Controls.Add(this.numberOfKidsInput2);
+            this.Controls.Add(this.numberOfKidsInput1);
             this.Controls.Add(this.numberOfKidsLabel);
-            this.Controls.Add(this.house4);
-            this.Controls.Add(this.house3);
-            this.Controls.Add(this.house2);
-            this.Controls.Add(this.house1);
+            this.Controls.Add(this.houseInput4);
+            this.Controls.Add(this.houseInput3);
+            this.Controls.Add(this.houseInput2);
+            this.Controls.Add(this.houseInput1);
             this.Controls.Add(this.houseLabel);
-            this.Controls.Add(this.career4);
-            this.Controls.Add(this.career3);
-            this.Controls.Add(this.career2);
-            this.Controls.Add(this.career1);
+            this.Controls.Add(this.careerInput4);
+            this.Controls.Add(this.careerInput3);
+            this.Controls.Add(this.careerInput2);
+            this.Controls.Add(this.careerInput1);
             this.Controls.Add(this.careerLabel1);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.titleLabel);
@@ -480,34 +481,34 @@
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Label careerLabel1;
-        private System.Windows.Forms.TextBox career1;
-        private System.Windows.Forms.TextBox career2;
-        private System.Windows.Forms.TextBox career3;
-        private System.Windows.Forms.TextBox career4;
-        private System.Windows.Forms.TextBox house4;
-        private System.Windows.Forms.TextBox house3;
-        private System.Windows.Forms.TextBox house2;
-        private System.Windows.Forms.TextBox house1;
+        private System.Windows.Forms.TextBox careerInput1;
+        private System.Windows.Forms.TextBox careerInput2;
+        private System.Windows.Forms.TextBox careerInput3;
+        private System.Windows.Forms.TextBox careerInput4;
+        private System.Windows.Forms.TextBox houseInput4;
+        private System.Windows.Forms.TextBox houseInput3;
+        private System.Windows.Forms.TextBox houseInput2;
+        private System.Windows.Forms.TextBox houseInput1;
         private System.Windows.Forms.Label houseLabel;
-        private System.Windows.Forms.TextBox numberOfKids4;
-        private System.Windows.Forms.TextBox numberOfKids3;
-        private System.Windows.Forms.TextBox numberOfKids2;
-        private System.Windows.Forms.TextBox numberOfKids1;
+        private System.Windows.Forms.TextBox numberOfKidsInput4;
+        private System.Windows.Forms.TextBox numberOfKidsInput3;
+        private System.Windows.Forms.TextBox numberOfKidsInput2;
+        private System.Windows.Forms.TextBox numberOfKidsInput1;
         private System.Windows.Forms.Label numberOfKidsLabel;
-        private System.Windows.Forms.TextBox vehicle4;
-        private System.Windows.Forms.TextBox vehicle3;
-        private System.Windows.Forms.TextBox vehicle2;
-        private System.Windows.Forms.TextBox vehicle1;
+        private System.Windows.Forms.TextBox vehicleInput4;
+        private System.Windows.Forms.TextBox vehicleInput3;
+        private System.Windows.Forms.TextBox vehicleInput2;
+        private System.Windows.Forms.TextBox vehicleInput1;
         private System.Windows.Forms.Label vehicleLabel;
-        private System.Windows.Forms.TextBox pets4;
-        private System.Windows.Forms.TextBox pets3;
-        private System.Windows.Forms.TextBox pets2;
-        private System.Windows.Forms.TextBox pets1;
+        private System.Windows.Forms.TextBox petsInput4;
+        private System.Windows.Forms.TextBox petsInput3;
+        private System.Windows.Forms.TextBox petsInput2;
+        private System.Windows.Forms.TextBox petsInput1;
         private System.Windows.Forms.Label petsLabel;
-        private System.Windows.Forms.TextBox income4;
-        private System.Windows.Forms.TextBox income3;
-        private System.Windows.Forms.TextBox income2;
-        private System.Windows.Forms.TextBox income1;
+        private System.Windows.Forms.TextBox incomeInput4;
+        private System.Windows.Forms.TextBox incomeInput3;
+        private System.Windows.Forms.TextBox incomeInput2;
+        private System.Windows.Forms.TextBox incomeInput1;
         private System.Windows.Forms.Label incomeLabel;
         private System.Windows.Forms.Label outputLabel1;
         private System.Windows.Forms.Button nextButton;
