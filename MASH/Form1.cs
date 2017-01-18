@@ -93,7 +93,7 @@ namespace MASH
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-
+            //refresh
             this.Refresh();
             titleLabel.Text = "Before the game start, we would like you to answer some questions.";
           
