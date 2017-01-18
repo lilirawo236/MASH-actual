@@ -15,6 +15,13 @@ namespace MASH
         public Form1()
         {
             InitializeComponent();
+
+            string career1, career2, career3, career4;
+            string house1, house2, house3, house4;
+            int numberOfKids1, numberOfKids2, numberOfKids3, numberOfKids4;
+            string pets1, pets2, pets3, pets4;
+            string vehicle1, vehicle2, vehicle3, vehicle4;
+
         } 
 
         private void button1_MouseEnter(object sender, EventArgs e)
@@ -30,6 +37,7 @@ namespace MASH
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            #region Making the labels and inputs visible
             //clearing the starting screen
             startButton.Visible = false;
             titleLabel.Visible = false;
@@ -73,8 +81,9 @@ namespace MASH
             income4.Visible = true;
 
             nextButton.Visible = true;
+            #endregion
         }
-        
+
         private void nextButton_Click(object sender, EventArgs e)
         {
 

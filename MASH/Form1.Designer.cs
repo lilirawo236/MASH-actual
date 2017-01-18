@@ -69,11 +69,12 @@
             this.titleLabel.BackColor = System.Drawing.Color.Transparent;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.LimeGreen;
-            this.titleLabel.Location = new System.Drawing.Point(60, 112);
+            this.titleLabel.Location = new System.Drawing.Point(60, 25);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(450, 118);
+            this.titleLabel.Size = new System.Drawing.Size(450, 291);
             this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "M.A.S.H.";
+            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // startButton
             // 
@@ -408,11 +409,12 @@
             // outputLabel1
             // 
             this.outputLabel1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel1.ForeColor = System.Drawing.Color.Maroon;
+            this.outputLabel1.ForeColor = System.Drawing.Color.Red;
             this.outputLabel1.Location = new System.Drawing.Point(29, 391);
             this.outputLabel1.Name = "outputLabel1";
             this.outputLabel1.Size = new System.Drawing.Size(348, 71);
             this.outputLabel1.TabIndex = 32;
+            this.outputLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nextButton
             // 
