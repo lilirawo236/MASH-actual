@@ -22,7 +22,9 @@ namespace MASH
             string pets1, pets2, pets3, pets4;
             string vehicle1, vehicle2, vehicle3, vehicle4;
 
-        } 
+           
+
+        }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
@@ -98,6 +100,108 @@ namespace MASH
             titleLabel.Text = "Before the game start, we would like you to answer some questions.";
           
             nextButton.Text = "Continue";
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            int scene = 0;  // tracks what part of the game the user is at
+            Random randGen = new Random();
+            /// check to see what button has been pressed and advance
+            /// to the next appropriate scene
+            if (e.KeyCode == Keys.B)       //green button press
+            {
+                if (scene == 0)
+                {
+                    scene = 1;
+                }
+                else if (scene == 1)
+                {
+                    this.Close();
+                }
+                else if (scene == 2)
+                {
+                    scene = 4;
+                }
+                else if (scene == 4)
+                {
+                    this.Close();
+                }
+                else if (scene == 3)
+                {
+                    scene = 6;
+                }
+                else if (scene == 6)
+                {
+                    scene = 8;
+                }
+                else if (scene == 9)
+                {
+                    scene = 12;
+                }
+                else if (scene == 12)
+                {
+                    this.Close();
+                }
+                else if (scene == 8)
+                {
+                    scene = 10;
+                }
+                else if (scene == 10)
+                {
+                    this.Close();
+                }
+
+            }
+            else if (e.KeyCode == Keys.N)  //blue button press
+            {
+                if (scene == 0)
+                {
+                    scene = 2;
+                }
+                else if (scene == 3)
+                {
+                    scene = 7;
+                }
+                else if (scene == 7)
+                {
+                    this.Close();
+                }
+                else if (scene == 2)
+                {
+                    scene = 5;
+                }
+                else if (scene == 5)
+                {
+                    this.Close();
+                }
+                else if (scene == 6)
+                {
+                    scene = 9;
+                }
+                else if (scene == 8)
+                {
+                    scene = 11;
+                }
+                else if (scene == 11)
+                {
+                    this.Close();
+                }
+                else if (scene == 9)
+                {
+                    scene = 13;
+                }
+                else if (scene == 13)
+                {
+                    this.Close();
+                }
+
+            }
+            else if (e.KeyCode == Keys.M)  //yellow button press
+            {
+                if (scene == 0)
+                {
+                    scene = 3;
+                }
+            }
         }
     }
 }
