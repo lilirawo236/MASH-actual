@@ -438,6 +438,7 @@
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // blueBox
             // 
@@ -451,8 +452,7 @@
             // 
             // yellowBox
             // 
-            this.yellowBox.Image = ((System.Drawing.Image)(resources.GetObject("yellowBox.Image")));
-            this.yellowBox.Location = new System.Drawing.Point(36, 171);
+            this.yellowBox.Location = new System.Drawing.Point(0, 0);
             this.yellowBox.Name = "yellowBox";
             this.yellowBox.Size = new System.Drawing.Size(49, 48);
             this.yellowBox.TabIndex = 41;
