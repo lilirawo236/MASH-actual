@@ -438,6 +438,33 @@
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
             // 
+            // blueBox
+            // 
+            this.blueBox.Location = new System.Drawing.Point(0, 0);
+            this.blueBox.Name = "blueBox";
+            this.blueBox.Size = new System.Drawing.Size(100, 50);
+            this.blueBox.TabIndex = 42;
+            this.blueBox.TabStop = false;
+            // 
+            // yellowBox
+            // 
+            this.yellowBox.Location = new System.Drawing.Point(0, 0);
+            this.yellowBox.Name = "yellowBox";
+            this.yellowBox.Size = new System.Drawing.Size(100, 50);
+            this.yellowBox.TabIndex = 41;
+            this.yellowBox.TabStop = false;
+            this.yellowBox.Visible = false;
+            // 
+            // greenLabel
+            // 
+            this.greenLabel.Location = new System.Drawing.Point(0, 0);
+            this.greenLabel.Name = "greenLabel";
+            this.greenLabel.Size = new System.Drawing.Size(100, 23);
+            this.greenLabel.TabIndex = 40;
+            this.greenLabel.Visible = false;
+            // 
+            // blueLabel
+            // 
             this.blueLabel.BackColor = System.Drawing.Color.Transparent;
             this.blueLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.ForeColor = System.Drawing.Color.Red;
