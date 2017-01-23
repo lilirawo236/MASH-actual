@@ -437,6 +437,7 @@
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // blueBox
             // 
@@ -448,6 +449,8 @@
             // 
             // yellowBox
             // 
+            this.yellowBox.BackColor = System.Drawing.Color.Transparent;
+            this.yellowBox.Enabled = false;
             this.yellowBox.Location = new System.Drawing.Point(0, 0);
             this.yellowBox.Name = "yellowBox";
             this.yellowBox.Size = new System.Drawing.Size(100, 50);

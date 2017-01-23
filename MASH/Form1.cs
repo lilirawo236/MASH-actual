@@ -137,7 +137,7 @@ namespace MASH
             //petsInput = petsInput + 1;
             pets4 = petsInput4.Text;
             //petsInput = petsInput + 1;
-/
+
             vehicle1 = vehicleInput1.Text;
             //vehicleInput = vehicleInput + 1;
             vehicle2 = vehicleInput2.Text;
@@ -205,6 +205,7 @@ namespace MASH
           
             nextButton.Text = "Continue";
         }
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             int scene = 0;  // tracks what part of the game the user is at
