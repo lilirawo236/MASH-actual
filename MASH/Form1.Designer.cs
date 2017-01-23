@@ -431,7 +431,7 @@
             // 
             this.nextButton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.nextButton.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextButton.Location = new System.Drawing.Point(400, 407);
+            this.nextButton.Location = new System.Drawing.Point(400, 414);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(119, 48);
             this.nextButton.TabIndex = 33;
@@ -441,26 +441,30 @@
             // 
             // blueBox
             // 
-            this.blueBox.Location = new System.Drawing.Point(0, 0);
+            this.blueBox.Image = ((System.Drawing.Image)(resources.GetObject("blueBox.Image")));
+            this.blueBox.Location = new System.Drawing.Point(36, 335);
             this.blueBox.Name = "blueBox";
-            this.blueBox.Size = new System.Drawing.Size(100, 50);
+            this.blueBox.Size = new System.Drawing.Size(49, 48);
             this.blueBox.TabIndex = 42;
             this.blueBox.TabStop = false;
+            this.blueBox.Visible = false;
             // 
             // yellowBox
             // 
-            this.yellowBox.Location = new System.Drawing.Point(0, 0);
+            this.yellowBox.Image = ((System.Drawing.Image)(resources.GetObject("yellowBox.Image")));
+            this.yellowBox.Location = new System.Drawing.Point(36, 171);
             this.yellowBox.Name = "yellowBox";
-            this.yellowBox.Size = new System.Drawing.Size(100, 50);
+            this.yellowBox.Size = new System.Drawing.Size(49, 48);
             this.yellowBox.TabIndex = 41;
             this.yellowBox.TabStop = false;
             this.yellowBox.Visible = false;
             // 
             // greenLabel
             // 
-            this.greenLabel.Location = new System.Drawing.Point(0, 0);
+            this.greenLabel.ForeColor = System.Drawing.Color.Gold;
+            this.greenLabel.Location = new System.Drawing.Point(89, 168);
             this.greenLabel.Name = "greenLabel";
-            this.greenLabel.Size = new System.Drawing.Size(100, 23);
+            this.greenLabel.Size = new System.Drawing.Size(430, 62);
             this.greenLabel.TabIndex = 40;
             this.greenLabel.Visible = false;
             // 
@@ -468,8 +472,8 @@
             // 
             this.blueLabel.BackColor = System.Drawing.Color.Transparent;
             this.blueLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.ForeColor = System.Drawing.Color.Red;
-            this.blueLabel.Location = new System.Drawing.Point(91, 358);
+            this.blueLabel.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.blueLabel.Location = new System.Drawing.Point(91, 330);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(428, 65);
             this.blueLabel.TabIndex = 37;
@@ -480,7 +484,7 @@
             // 
             this.greenBox.BackColor = System.Drawing.Color.Transparent;
             this.greenBox.Image = ((System.Drawing.Image)(resources.GetObject("greenBox.Image")));
-            this.greenBox.Location = new System.Drawing.Point(36, 268);
+            this.greenBox.Location = new System.Drawing.Point(34, 251);
             this.greenBox.Name = "greenBox";
             this.greenBox.Size = new System.Drawing.Size(49, 48);
             this.greenBox.TabIndex = 38;
@@ -491,8 +495,8 @@
             // 
             this.yellowLabel.BackColor = System.Drawing.Color.Transparent;
             this.yellowLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yellowLabel.ForeColor = System.Drawing.Color.Red;
-            this.yellowLabel.Location = new System.Drawing.Point(91, 182);
+            this.yellowLabel.ForeColor = System.Drawing.Color.LimeGreen;
+            this.yellowLabel.Location = new System.Drawing.Point(91, 251);
             this.yellowLabel.Name = "yellowLabel";
             this.yellowLabel.Size = new System.Drawing.Size(428, 65);
             this.yellowLabel.TabIndex = 39;
@@ -501,12 +505,14 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.AutoSize = true;
+            this.outputLabel.BackColor = System.Drawing.Color.Transparent;
             this.outputLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.Location = new System.Drawing.Point(11, 9);
+            this.outputLabel.Location = new System.Drawing.Point(12, 9);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(0, 26);
+            this.outputLabel.Size = new System.Drawing.Size(530, 156);
             this.outputLabel.TabIndex = 40;
+            this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.outputLabel.Visible = false;
             // 
             // Form1
             // 
