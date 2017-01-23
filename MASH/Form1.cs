@@ -212,6 +212,8 @@ namespace MASH
             //Random randGen = new Random();
             /// check to see what button has been pressed and advance
             /// to the next appropriate scene
+            
+            #region If green button pressed
             if (e.KeyCode == Keys.B)       //green button press
             {
                 if (scene == 0)
@@ -221,7 +223,7 @@ namespace MASH
                 else if (scene == 1)
                 {
                     
-                    outputLabel1.Text = "Alright, yout mash number will be 9";
+                    outputLabel1.Text = "Alright, your mash number will be 9";
                 }
                 else if (scene == 2)
                 {
@@ -230,7 +232,7 @@ namespace MASH
                 else if (scene == 4)
                 {
                     
-                    outputLabel1.Text = "Alright, yout mash number will be 7";
+                    outputLabel1.Text = "Alright, your mash number will be 7";
                 }
                 else if (scene == 3)
                 {
@@ -246,7 +248,7 @@ namespace MASH
                 }
                 else if (scene == 12)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 3";
+                    outputLabel1.Text = "Alright, your mash number will be 3";
                 }
                 else if (scene == 8)
                 {
@@ -254,10 +256,12 @@ namespace MASH
                 }
                 else if (scene == 10)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 6";
+                    outputLabel1.Text = "Alright, your mash number will be 6";
                 }
-
             }
+            #endregion
+
+            #region If blue button pressed
             else if (e.KeyCode == Keys.N)  //blue button press
             {
                 if (scene == 0)
@@ -270,7 +274,7 @@ namespace MASH
                 }
                 else if (scene == 7)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 8";
+                    outputLabel1.Text = "Alright, your mash number will be 8";
                     
                 }
                 else if (scene == 2)
@@ -279,7 +283,7 @@ namespace MASH
                 }
                 else if (scene == 5)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 5";
+                    outputLabel1.Text = "Alright, your mash number will be 5";
                     
                 }
                 else if (scene == 6)
@@ -292,7 +296,7 @@ namespace MASH
                 }
                 else if (scene == 11)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 2";
+                    outputLabel1.Text = "Alright, your mash number will be 2";
                 }
                 else if (scene == 9)
                 {
@@ -300,10 +304,12 @@ namespace MASH
                 }
                 else if (scene == 13)
                 {
-                    outputLabel1.Text = "Alright, yout mash number will be 3";
+                    outputLabel1.Text = "Alright, your mash number will be 3";
                 }
-
             }
+            #endregion
+
+            #region If yellow button pressed
             else if (e.KeyCode == Keys.M)  //yellow button press
             {
                 if (scene == 0)
@@ -311,18 +317,20 @@ namespace MASH
                     scene = 3;
                 }
             }
+            #endregion
+
             /// Display text and game options to screen based on the current scene
             switch (scene)
             {
                 case 0:  //start scene  
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
-                    yellowLabel.Text = "";
+                    outputLabel.Text = "You are walking home from work one day when all of a sudden it starts to rain. Thunder rumbles in the distance, and you notice there's a 7/11 nearby. Do you take shelter at the 7 / 11, or maybe call for a ride? Then again, a little rain can't hurt, you could just continue walking.";
+                    greenLabel.Text = "Keep walking";
+                    blueLabel.Text = "Call for a ride";
+                    yellowLabel.Text = "Seek shelter at 7/11";
                     break;
                 case 1:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
+                    outputLabel.Text = "You choose to continue walking, and sure enough it starts to pour. You arrive home soaking wet, but that's nothing a few towels can't fix.";
+                    greenLabel.Text = "Continue";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
                     break;
