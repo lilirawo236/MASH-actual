@@ -104,7 +104,7 @@ namespace MASH
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             int scene = 0;  // tracks what part of the game the user is at
-            Random randGen = new Random();
+            //Random randGen = new Random();
             /// check to see what button has been pressed and advance
             /// to the next appropriate scene
             if (e.KeyCode == Keys.B)       //green button press
@@ -115,7 +115,8 @@ namespace MASH
                 }
                 else if (scene == 1)
                 {
-                    this.Close();
+                    
+                    outputLabel1.Text = "Alright, yout mash number will be 9";
                 }
                 else if (scene == 2)
                 {
@@ -123,7 +124,8 @@ namespace MASH
                 }
                 else if (scene == 4)
                 {
-                    this.Close();
+                    
+                    outputLabel1.Text = "Alright, yout mash number will be 7";
                 }
                 else if (scene == 3)
                 {
@@ -139,7 +141,7 @@ namespace MASH
                 }
                 else if (scene == 12)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 3";
                 }
                 else if (scene == 8)
                 {
@@ -147,7 +149,7 @@ namespace MASH
                 }
                 else if (scene == 10)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 6";
                 }
 
             }
@@ -163,7 +165,8 @@ namespace MASH
                 }
                 else if (scene == 7)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 8";
+                    
                 }
                 else if (scene == 2)
                 {
@@ -171,7 +174,8 @@ namespace MASH
                 }
                 else if (scene == 5)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 5";
+                    
                 }
                 else if (scene == 6)
                 {
@@ -183,7 +187,7 @@ namespace MASH
                 }
                 else if (scene == 11)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 2";
                 }
                 else if (scene == 9)
                 {
@@ -191,7 +195,7 @@ namespace MASH
                 }
                 else if (scene == 13)
                 {
-                    this.Close();
+                    outputLabel1.Text = "Alright, yout mash number will be 3";
                 }
 
             }
@@ -201,6 +205,96 @@ namespace MASH
                 {
                     scene = 3;
                 }
+            }
+            /// Display text and game options to screen based on the current scene
+            switch (scene)
+            {
+                case 0:  //start scene  
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 1:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 2:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 3:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 4:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 5:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 6:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 7:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 8:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 9:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;                    
+                case 10:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 11:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 12:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                case 13:
+                    outputLabel.Text = "";
+                    greenLabel.Text = "";
+                    blueLabel.Text = "";
+                    yellowLabel.Text = "";
+                    break;
+                default:
+                    break;
             }
         }
     }

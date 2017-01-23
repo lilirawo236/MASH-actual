@@ -69,6 +69,7 @@
             this.blueLabel = new System.Windows.Forms.Label();
             this.greenBox = new System.Windows.Forms.PictureBox();
             this.yellowLabel = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.blueBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenBox)).BeginInit();
@@ -508,12 +509,22 @@
             this.yellowLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.yellowLabel.Visible = false;
             // 
+            // outputLabel
+            // 
+            this.outputLabel.AutoSize = true;
+            this.outputLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Location = new System.Drawing.Point(11, 9);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(0, 26);
+            this.outputLabel.TabIndex = 40;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
+            this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.greenBox);
             this.Controls.Add(this.blueLabel);
@@ -554,6 +565,7 @@
             this.Controls.Add(this.careerLabel1);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.titleLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Mash Game";
             ((System.ComponentModel.ISupportInitialize)(this.blueBox)).EndInit();
@@ -606,6 +618,7 @@
         private System.Windows.Forms.Label blueLabel;
         private System.Windows.Forms.PictureBox greenBox;
         private System.Windows.Forms.Label yellowLabel;
+        private System.Windows.Forms.Label outputLabel;
     }
 }
 
