@@ -20,6 +20,10 @@ namespace MASH
         //creating variables for all user inputs
         string career1, career2, career3, career4;
         string house1, house2, house3, house4;
+
+       // private void Form1_Load(object sender, EventArgs e)
+        
+
         string numberOfKids1, numberOfKids2, numberOfKids3, numberOfKids4;
         string pets1, pets2, pets3, pets4;
         string vehicle1, vehicle2, vehicle3, vehicle4;
