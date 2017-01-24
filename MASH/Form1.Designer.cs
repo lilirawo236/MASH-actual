@@ -70,9 +70,11 @@
             this.greenBox = new System.Windows.Forms.PictureBox();
             this.yellowLabel = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.blueBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -443,7 +445,7 @@
             // blueBox
             // 
             this.blueBox.Image = ((System.Drawing.Image)(resources.GetObject("blueBox.Image")));
-            this.blueBox.Location = new System.Drawing.Point(36, 335);
+            this.blueBox.Location = new System.Drawing.Point(34, 330);
             this.blueBox.Name = "blueBox";
             this.blueBox.Size = new System.Drawing.Size(49, 48);
             this.blueBox.TabIndex = 42;
@@ -462,7 +464,7 @@
             // greenLabel
             // 
             this.greenLabel.ForeColor = System.Drawing.Color.Gold;
-            this.greenLabel.Location = new System.Drawing.Point(89, 168);
+            this.greenLabel.Location = new System.Drawing.Point(103, 251);
             this.greenLabel.Name = "greenLabel";
             this.greenLabel.Size = new System.Drawing.Size(430, 62);
             this.greenLabel.TabIndex = 40;
@@ -473,7 +475,7 @@
             this.blueLabel.BackColor = System.Drawing.Color.Transparent;
             this.blueLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.blueLabel.Location = new System.Drawing.Point(91, 330);
+            this.blueLabel.Location = new System.Drawing.Point(105, 326);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(428, 65);
             this.blueLabel.TabIndex = 37;
@@ -496,7 +498,7 @@
             this.yellowLabel.BackColor = System.Drawing.Color.Transparent;
             this.yellowLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yellowLabel.ForeColor = System.Drawing.Color.LimeGreen;
-            this.yellowLabel.Location = new System.Drawing.Point(91, 251);
+            this.yellowLabel.Location = new System.Drawing.Point(101, 175);
             this.yellowLabel.Name = "yellowLabel";
             this.yellowLabel.Size = new System.Drawing.Size(428, 65);
             this.yellowLabel.TabIndex = 39;
@@ -507,12 +509,23 @@
             // 
             this.outputLabel.BackColor = System.Drawing.Color.Transparent;
             this.outputLabel.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.Location = new System.Drawing.Point(12, 9);
+            this.outputLabel.Location = new System.Drawing.Point(12, 16);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(530, 156);
             this.outputLabel.TabIndex = 40;
             this.outputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.outputLabel.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(34, 175);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 48);
+            this.pictureBox1.TabIndex = 43;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // Form1
             // 
@@ -520,6 +533,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(554, 471);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.greenBox);
@@ -567,6 +581,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.blueBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,6 +630,7 @@
         private System.Windows.Forms.PictureBox greenBox;
         private System.Windows.Forms.Label yellowLabel;
         private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
