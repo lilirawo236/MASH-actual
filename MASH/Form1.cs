@@ -229,6 +229,8 @@ namespace MASH
                 {
                     
                     outputLabel1.Text = "Alright, your mash number will be 9";
+                    mashNumber = 9;
+
                 }
                 else if (scene == 2)
                 {
@@ -237,6 +239,8 @@ namespace MASH
                 else if (scene == 4)
                 {   
                     outputLabel1.Text = "Alright, your mash number will be 7";
+                    mashNumber = 7;
+
                 }
                 else if (scene == 3)
                 {
@@ -253,6 +257,8 @@ namespace MASH
                 else if (scene == 12)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 3";
+                    mashNumber = 3;
+
                 }
                 else if (scene == 8)
                 {
@@ -261,6 +267,8 @@ namespace MASH
                 else if (scene == 10)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 6";
+                    mashNumber = 6;
+
                 }
             }
             #endregion
@@ -279,6 +287,7 @@ namespace MASH
                 else if (scene == 7)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 8";
+                    mashNumber = 8;
                     
                 }
                 else if (scene == 2)
@@ -288,6 +297,7 @@ namespace MASH
                 else if (scene == 5)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 5";
+                    mashNumber = 5;
                     
                 }
                 else if (scene == 6)
@@ -301,6 +311,8 @@ namespace MASH
                 else if (scene == 11)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 2";
+                    mashNumber = 2;
+
                 }
                 else if (scene == 9)
                 {
@@ -309,6 +321,8 @@ namespace MASH
                 else if (scene == 13)
                 {
                     outputLabel1.Text = "Alright, your mash number will be 3";
+                    mashNumber = 3;
+
                 }
             }
             #endregion
@@ -363,8 +377,8 @@ namespace MASH
                     yellowLabel.Text = "";
                     break;
                 case 6:
-                    outputLabel.Text = "You head into the store, but it seems rude to loiter. You decide to buy something, but what should you buy?";
-                    greenLabel.Text = "Buy a slushee";
+                    outputLabel.Text = "You head into the store, and just as the door closes behind you it starts to rain. It seems rude to loiter so you decide to buy something, but what should you buy?";
+                    greenLabel.Text = "Buy a slushie";
                     blueLabel.Text = "Buy an umbrella";
                     yellowLabel.Text = "";
                     break;
@@ -375,39 +389,39 @@ namespace MASH
                     yellowLabel.Text = "";
                     break;
                 case 8:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    outputLabel.Text = "A slushie will help you pass the time until the storm stops, and lo and behold they have your favourite flavour! You head up to the counter to pay, but are you paying with cash or debit?.";
+                    greenLabel.Text = "Pay with cash";
+                    blueLabel.Text = "Pay with debit";
                     yellowLabel.Text = "";
                     break;
                 case 9:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    outputLabel.Text = "An umbrella seems like a useful purchase, especially if the rain doesn't stop soon. You get to the counter to pay, but are you paying with cash or debit?";
+                    greenLabel.Text = "Pay with cash";
+                    blueLabel.Text = "Pay with debit";
                     yellowLabel.Text = "";
                     break;                    
                 case 10:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
+                    outputLabel.Text = "You fish around in you pockets and find a five dollar bill. Placing it on the counter, you sip on your purchase as the cashier hands you your change. Soon after, the rain stops and you resume your walk home.";
+                    greenLabel.Text = "Continue";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
                     break;
                 case 11:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You pull out your debit card and pay for the slushie. Not too long after, the rain stops and you resume your walk home. ";
                     greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    blueLabel.Text = "Continue";
                     yellowLabel.Text = "";
                     break;
                 case 12:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
+                    outputLabel.Text = "You fish around in you pockets and find a five dollar bill. Placing it on the counter, you wait a few minutes to see if the rain stops. Seeing no change in the weather, you sigh and open your umbrella, braving the storm to finish your walk home.";
+                    greenLabel.Text = "Continue";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
                     break;
                 case 13:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You pull out your debit card and pay for the umbrella, deciding to wait a few minutes and see if the rain stops. It doesn't, so you sigh and open your umbrella, braving the storm to finish your walk home.";
                     greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    blueLabel.Text = "Continue";
                     yellowLabel.Text = "";
                     break;
                 default:
