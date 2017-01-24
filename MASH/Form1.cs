@@ -14,6 +14,7 @@ namespace MASH
     {
         int careerInput = 0, houseInput = 0, numberOfKidsInput = 0;
         int petsInput = 0, vehicleInput = 0, incomeInput = 0;
+        int mashNumber;
 
         #region User input variables
         //creating variables for all user inputs
@@ -230,8 +231,7 @@ namespace MASH
                     scene = 4;
                 }
                 else if (scene == 4)
-                {
-                    
+                {   
                     outputLabel1.Text = "Alright, your mash number will be 7";
                 }
                 else if (scene == 3)
@@ -335,39 +335,39 @@ namespace MASH
                     yellowLabel.Text = "";
                     break;
                 case 2:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    outputLabel.Text = "You decide to call someone to come pick you up. But wait, who do you call?";
+                    greenLabel.Text = "Call your parents";
+                    blueLabel.Text = "Call a friend";
                     yellowLabel.Text = "";
                     break;
                 case 3:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    outputLabel.Text = "You cross the street and head over to 7/11. Another wave of thunder rumbles through the air, louder this time. Do you wait under the veranda or do you go inside?";
+                    greenLabel.Text = "Go inside";
+                    blueLabel.Text = "Stay outside";
                     yellowLabel.Text = "";
                     break;
                 case 4:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
+                    outputLabel.Text = "You call your parents for a ride and they come pick you up. You get home just as it starts to pour, glad that you didn't have to walk home through this much rain.";
+                    greenLabel.Text = "Continue";
                     blueLabel.Text = "";
                     yellowLabel.Text = "";
                     break;
                 case 5:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You call your best friend and it just so happens that they were out running errands. They pick you up and now you're free to enjoy the rest of your day.";
                     greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    blueLabel.Text = "Continue";
                     yellowLabel.Text = "";
                     break;
                 case 6:
-                    outputLabel.Text = "";
-                    greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    outputLabel.Text = "You head into the store, but it seems rude to loiter. You decide to buy something, but what should you buy?";
+                    greenLabel.Text = "Buy a slushee";
+                    blueLabel.Text = "Buy an umbrella";
                     yellowLabel.Text = "";
                     break;
                 case 7:
-                    outputLabel.Text = "";
+                    outputLabel.Text = "You decide to wait outside until the storm passes. After a few minutes, the thunder grows faint and you see the sun come out from behind the clouds. You resume your walk and make it home in a timely fashion.";
                     greenLabel.Text = "";
-                    blueLabel.Text = "";
+                    blueLabel.Text = "Continue";
                     yellowLabel.Text = "";
                     break;
                 case 8:
