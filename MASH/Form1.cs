@@ -15,6 +15,7 @@ namespace MASH
         int careerInput = 0, houseInput = 0, numberOfKidsInput = 0;
         int petsInput = 0, vehicleInput = 0, incomeInput = 0;
         int mashNumber;
+        int state = 1;
 
         #region User input variables
         //creating variables for all user inputs
@@ -33,13 +34,11 @@ namespace MASH
         public Form1()
         {
             InitializeComponent();
-
         } 
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             startButton.BackColor = Color.Yellow;
-
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
@@ -105,110 +104,118 @@ namespace MASH
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-            #region Convert user inputs to string values and count number of inputs
-            //assigning the user inputs to values to be used later
-            career1 = careerInput1.Text;
-            //careerInput = careerInput + 1;
-            career2 = careerInput2.Text;
-            //careerInput = careerInput + 1;
-            career3 = careerInput3.Text;
-            //careerInput = careerInput + 1;
-            career4 = careerInput4.Text;
-            //careerInput = careerInput + 1;
+            if (state == 1)
+            {
+                #region Convert user inputs to string values and count number of inputs
+                //assigning the user inputs to values to be used later
+                career1 = careerInput1.Text;
+                //careerInput = careerInput + 1;
+                career2 = careerInput2.Text;
+                //careerInput = careerInput + 1;
+                career3 = careerInput3.Text;
+                //careerInput = careerInput + 1;
+                career4 = careerInput4.Text;
+                //careerInput = careerInput + 1;
 
-            house1 = houseInput1.Text;
-            //houseInput = houseInput + 1;
-            house2 = houseInput2.Text;
-            //houseInput = houseInput + 1;
-            house3 = houseInput3.Text;
-            //houseInput = houseInput + 1;
-            house4 = houseInput4.Text;
-            //houseInput = houseInput + 1;
+                house1 = houseInput1.Text;
+                //houseInput = houseInput + 1;
+                house2 = houseInput2.Text;
+                //houseInput = houseInput + 1;
+                house3 = houseInput3.Text;
+                //houseInput = houseInput + 1;
+                house4 = houseInput4.Text;
+                //houseInput = houseInput + 1;
 
-            numberOfKids1 = numberOfKidsInput1.Text;
-            //numberOfKidsInput = numberOfKidsInput + 1;
-            numberOfKids2 = numberOfKidsInput2.Text;
-            //numberOfKidsInput = numberOfKidsInput + 1;
-            numberOfKids3 = numberOfKidsInput3.Text;
-            //numberOfKidsInput = numberOfKidsInput + 1;
-            numberOfKids4 = numberOfKidsInput4.Text;
-            //numberOfKidsInput = numberOfKidsInput + 1;
+                numberOfKids1 = numberOfKidsInput1.Text;
+                //numberOfKidsInput = numberOfKidsInput + 1;
+                numberOfKids2 = numberOfKidsInput2.Text;
+                //numberOfKidsInput = numberOfKidsInput + 1;
+                numberOfKids3 = numberOfKidsInput3.Text;
+                //numberOfKidsInput = numberOfKidsInput + 1;
+                numberOfKids4 = numberOfKidsInput4.Text;
+                //numberOfKidsInput = numberOfKidsInput + 1;
 
-            pets1 = petsInput1.Text;
-            //petsInput = petsInput + 1;
-            pets2 = petsInput2.Text;
-            //petsInput = petsInput + 1;
-            pets3 = petsInput3.Text;
-            //petsInput = petsInput + 1;
-            pets4 = petsInput4.Text;
-            //petsInput = petsInput + 1;
+                pets1 = petsInput1.Text;
+                //petsInput = petsInput + 1;
+                pets2 = petsInput2.Text;
+                //petsInput = petsInput + 1;
+                pets3 = petsInput3.Text;
+                //petsInput = petsInput + 1;
+                pets4 = petsInput4.Text;
+                //petsInput = petsInput + 1;
 
-            vehicle1 = vehicleInput1.Text;
-            //vehicleInput = vehicleInput + 1;
-            vehicle2 = vehicleInput2.Text;
-            //vehicleInput = vehicleInput + 1;
-            vehicle3 = vehicleInput3.Text;
-            //vehicleInput = vehicleInput + 1;
-            vehicle4 = vehicleInput4.Text;
-            //vehicleInput = vehicleInput + 1;
+                vehicle1 = vehicleInput1.Text;
+                //vehicleInput = vehicleInput + 1;
+                vehicle2 = vehicleInput2.Text;
+                //vehicleInput = vehicleInput + 1;
+                vehicle3 = vehicleInput3.Text;
+                //vehicleInput = vehicleInput + 1;
+                vehicle4 = vehicleInput4.Text;
+                //vehicleInput = vehicleInput + 1;
 
-            income1 = incomeInput1.Text;
-            //incomeInput = incomeInput + 1;
-            income2 = incomeInput2.Text;
-            //incomeInput = incomeInput + 1;
-            income3 = incomeInput3.Text;
-            //incomeInput = incomeInput + 1;
-            income4 = incomeInput4.Text;
-            //incomeInput = incomeInput + 1;
+                income1 = incomeInput1.Text;
+                //incomeInput = incomeInput + 1;
+                income2 = incomeInput2.Text;
+                //incomeInput = incomeInput + 1;
+                income3 = incomeInput3.Text;
+                //incomeInput = incomeInput + 1;
+                income4 = incomeInput4.Text;
+                //incomeInput = incomeInput + 1;
 
-           // careerInput = careerInput;
+                // careerInput = careerInput;
 
-            #endregion
+                #endregion
 
-            #region Making input boxes and labels invisible
-            careerLabel1.Visible = false;
-            careerInput1.Visible = false;
-            careerInput2.Visible = false;
-            careerInput3.Visible = false;
-            careerInput4.Visible = false;
+                #region Making input boxes and labels invisible
+                careerLabel1.Visible = false;
+                careerInput1.Visible = false;
+                careerInput2.Visible = false;
+                careerInput3.Visible = false;
+                careerInput4.Visible = false;
 
-            houseLabel.Visible = false;
-            houseInput1.Visible = false;
-            houseInput2.Visible = false;
-            houseInput3.Visible = false;
-            houseInput4.Visible = false;
+                houseLabel.Visible = false;
+                houseInput1.Visible = false;
+                houseInput2.Visible = false;
+                houseInput3.Visible = false;
+                houseInput4.Visible = false;
 
-            numberOfKidsLabel.Visible = false;
-            numberOfKidsInput1.Visible = false;
-            numberOfKidsInput2.Visible = false;
-            numberOfKidsInput3.Visible = false;
-            numberOfKidsInput4.Visible = false;
+                numberOfKidsLabel.Visible = false;
+                numberOfKidsInput1.Visible = false;
+                numberOfKidsInput2.Visible = false;
+                numberOfKidsInput3.Visible = false;
+                numberOfKidsInput4.Visible = false;
 
-            petsLabel.Visible = false;
-            petsInput1.Visible = false;
-            petsInput2.Visible = false;
-            petsInput3.Visible = false;
-            petsInput4.Visible = false;
+                petsLabel.Visible = false;
+                petsInput1.Visible = false;
+                petsInput2.Visible = false;
+                petsInput3.Visible = false;
+                petsInput4.Visible = false;
 
-            vehicleLabel.Visible = false;
-            vehicleInput1.Visible = false;
-            vehicleInput2.Visible = false;
-            vehicleInput3.Visible = false;
-            vehicleInput4.Visible = false;
+                vehicleLabel.Visible = false;
+                vehicleInput1.Visible = false;
+                vehicleInput2.Visible = false;
+                vehicleInput3.Visible = false;
+                vehicleInput4.Visible = false;
 
-            incomeLabel.Visible = false;
-            incomeInput1.Visible = false;
-            incomeInput2.Visible = false;
-            incomeInput3.Visible = false;
-            incomeInput4.Visible = false;
-            #endregion
+                incomeLabel.Visible = false;
+                incomeInput1.Visible = false;
+                incomeInput2.Visible = false;
+                incomeInput3.Visible = false;
+                incomeInput4.Visible = false;
+                #endregion
 
-             
+                this.Refresh();
+                outputLabel1.Text = "Before the game starts, we would like you to answer some questions.";
 
-            this.Refresh();
-            titleLabel.Text = "Before the game start, we would like you to answer some questions.";
-          
-            nextButton.Text = "Continue";
+                nextButton.Text = "Continue";
+
+                state = 2;
+            }
+
+            else if (state == 2)
+            {
+                this.Refresh();
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -337,6 +344,7 @@ namespace MASH
             }
             #endregion
 
+            #region The case scenarios
             /// Display text and game options to screen based on the current scene
             switch (scene)
             {
@@ -426,6 +434,8 @@ namespace MASH
                     break;
                 default:
                     break;
+                    #endregion
+
             }
         }
     }
